@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "HuskHomes Bedrock · 家与传送",
+    "description": "中文表单、多家、公开家、公共传送点、TPA、返回、死亡地点和随机传送。独立基岩版实现。",
+    "uuid": "7e7bb539-c59d-4c64-a07f-4f5cb6fad61c",
+    "version": [1, 0, 2],
+    "min_engine_version": [1, 26, 70]
+  },
+  "modules": [
+    { "type": "data", "uuid": "c52a39ad-2d81-4905-80bb-90be1e861090", "version": [1, 0, 2] },
+    {
+      "type": "script", "language": "javascript", "entry": "scripts/main.js",
+      "uuid": "f1ae14ac-0bfb-4104-91ba-8faeebc0c2cf", "version": [1, 0, 2]
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "2.11.0" },
+    { "module_name": "@minecraft/server-ui", "version": "2.3.0" }
+  ],
+  "metadata": { "authors": ["HuskHomes Bedrock contributors"], "license": "MIT" }
+}

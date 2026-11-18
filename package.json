@@ -1,0 +1,32 @@
+{
+  "name": "huskhomes-bedrock",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "description": "Independent HuskHomes-inspired Minecraft Bedrock homes, warps, TPA and native Chinese forms",
+  "license": "MIT",
+  "author": "leemwood",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leemwood/huskhomes-bedrock.git"
+  },
+  "homepage": "https://github.com/leemwood/huskhomes-bedrock#readme",
+  "bugs": {
+    "url": "https://github.com/leemwood/huskhomes-bedrock/issues"
+  },
+  "engines": {
+    "node": ">=22.15.0"
+  },
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --test tests/*.test.js",
+    "build": "python tools/build.py"
+  },
+  "devDependencies": {
+    "@minecraft/common": "1.2.0",
+    "@minecraft/server": "2.11.0",
+    "@minecraft/vanilla-data": "1.26.60",
+    "typescript": "5.9.3",
+    "@minecraft/server-ui": "2.3.0"
+  }
+}
